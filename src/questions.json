@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "Qual destas não é uma característica do React?",
+      "options": [
+        "Programação Orientada a Objetos",
+        "Componentização",
+        "Virtual DOM",
+        "JSX"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "O que é o JSX no React?",
+      "options": [
+        "Uma linguagem de consulta de banco de dados",
+        "Uma forma de escrever comentários no código",
+        "Uma extensão de sintaxe que mistura JavaScript com XML",
+        "Um pacote de gerenciamento de estado"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Qual é o objetivo principal do estado (state) em um componente React?",
+      "options": [
+        "Armazenar informações globais para toda a aplicação",
+        "Controlar a renderização de um componente",
+        "Armazenar informações locais para um componente",
+        "Definir o layout de um componente"
+      ],
+      "correctOption": 2,
+      "points": 15
+    },
+    {
+      "question": "O que é o React Router utilizado para?",
+      "options": [
+        "Gerenciar o estado global da aplicação",
+        "Lidar com solicitações HTTP",
+        "Navegação e roteamento em aplicativos React de página única (SPA)",
+        "Renderizar elementos de forma eficiente"
+      ],
+      "correctOption": 2,
+      "points": 15
+    },
+    {
+      "question": "Quando você usaria a função `map` em React?",
+      "options": [
+        "Para criar um novo componente React",
+        "Para mapear as teclas do teclado em eventos de clique",
+        "Para criar uma lista de elementos com base em um array de dados",
+        "Para criar estilos CSS em componentes React"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Qual é a principal diferença entre `props` (propriedades) e `state` (estado) em React?",
+      "options": [
+        "`props` é imutável, enquanto `state` é mutável",
+        "`props` é usado apenas para classes de componente, enquanto `state` é usado apenas para funções de componente",
+        "`props` é armazenado localmente, enquanto `state` é armazenado globalmente",
+        "`props` é usado para passar dados de um componente pai para um componente filho, enquanto `state` é gerenciado internamente por um componente"
+      ],
+      "correctOption": 3,
+      "points": 15
+    },
+    {
+      "question": "O que é uma ação em um aplicativo React com Redux?",
+      "options": [
+        "Um evento de clique do mouse",
+        "Uma solicitação de API",
+        "Um objeto que descreve uma mudança de estado",
+        "Uma função que atualiza o estado de um componente"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Qual é o propósito do método `componentDidMount` em um componente de classe React?",
+      "options": [
+        "Atualizar o estado do componente",
+        "Renderizar o componente na tela",
+        "Executar código após o componente ter sido montado no DOM",
+        "Manipular eventos de clique"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "O que é uma referência (ref) em React?",
+      "options": [
+        "Um link para um site externo",
+        "Uma função de callback",
+        "Uma forma de acessar diretamente o DOM ou um elemento React",
+        "Um tipo de variável global em React"
+      ],
+      "correctOption": 2,
+      "points": 15
+    },
+    {
+      "question": "Qual é a principal vantagem do uso de componentes funcionais sobre componentes de classe em React?",
+      "options": [
+        "Melhor desempenho",
+        "Mais recursos avançados",
+        "Sintaxe mais limpa e concisa",
+        "Suporte a lifecycle methods avançados"
+      ],
+      "correctOption": 2,
+      "points": 15
+    }
+  ]
+}
