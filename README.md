@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+#~~~~ Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um aplicativo de quiz simples desenvolvido em React. O aplicativo permite que os usuários respondam a várias perguntas e acumulem pontos. Ele também possui uma tela de início, uma tela de fim e recursos de progresso.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Tela de início: Os usuários veem uma tela de início que mostra o número de perguntas disponíveis e um botão para começar o quiz.
 
-### `npm start`
+- Tela de carregamento: Durante o carregamento das perguntas do servidor, os usuários veem uma tela de carregamento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Tela de erro: Se houver um erro ao carregar as perguntas, os usuários veem uma tela de erro.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Tela ativa: Quando o quiz está em andamento, os usuários veem a pergunta atual, um medidor de progresso e um botão para avançar para a próxima pergunta.
 
-### `npm test`
+- Tela de fim: Após responder a todas as perguntas, os usuários veem uma tela de fim que mostra a pontuação alcançada, o número máximo de pontos possíveis e a pontuação mais alta alcançada.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estrutura do Código
 
-### `npm run build`
+- O aplicativo utiliza o React e o hook `useReducer` para gerenciar o estado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- As perguntas são carregadas de um servidor local através de uma chamada de API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- O estado do aplicativo é gerenciado usando o `useReducer` do React.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- O aplicativo consiste em vários componentes React, incluindo Header, Main, Loader, Error, StartScreen, Question, NextButton, Progress e FinishScreen.
 
-### `npm run eject`
+## Como Usar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone este repositório para o seu ambiente local.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Certifique-se de ter o Node.js instalado em seu sistema.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. No diretório raiz do projeto, execute `npm install` para instalar as dependências.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Execute `npm start` para iniciar o aplicativo em seu navegador.
 
-## Learn More
+5. Execute `npm run server` para iniciar a API local.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Você verá a tela de início do quiz. Clique no botão "Começar" para iniciar o quiz.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Responda às perguntas e avance para a próxima usando o botão "Próxima".
 
-### Code Splitting
+8. Após responder a todas as perguntas, você verá a tela de fim com sua pontuação final.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
+Este projeto é distribuído sob a [licença MIT](LICENSE.txt).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
