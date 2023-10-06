@@ -1,4 +1,4 @@
-#~~~~ Quiz App
+# Quiz App
 
 Este é um aplicativo de quiz simples desenvolvido em React. O aplicativo permite que os usuários respondam a várias perguntas e acumulem pontos. Ele também possui uma tela de início, uma tela de fim e recursos de progresso.
 
